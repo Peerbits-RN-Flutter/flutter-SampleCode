@@ -1,0 +1,89 @@
+name: Common
+description: Flutter common code.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  device_info: ^2.0.0
+  flutter_local_notifications: ^5.0.0-nullsafety.0
+  dio: ^4.0.0-beta4
+  shared_preferences: ^2.0.3
+  get: ^4.0.0-nullsafety.2
+  action_broadcast: ^3.0.0
+  # country_code_picker: ^1.7.0
+  path_provider: ^2.0.1
+  webview_flutter: ^2.0.1
+  cached_network_image: ^3.0.0-nullsafety
+  firebase_core: ^1.0.0
+  cloud_firestore: ^1.0.0
+  firebase_messaging: ^9.0.0
+  firebase_crashlytics: ^1.0.0
+  # flutter_statusbarcolor: ^0.2.3
+  #dio_cookie_manager: ^1.0.0
+  #dio_flutter_transformer: ^3.0.2
+  #flutter_tags: ^0.4.9+1
+  #flutter_range_slider: ^1.5.0
+  #amazon_s3_cognito: ^0.5.2
+  #image_picker: ^0.6.7+21
+  #device_preview: ^0.5.5
+  #filesize: ^1.0.4
+  #flutter_file_dialog: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+# If you are using different font you need to write the famili to the AppFont.dart file.
+flutter:
+  fonts:
+    - family: RobotoBlack
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+    - family: RobotoBlackItalic
+      fonts:
+        - asset: assets/fonts/Roboto-BlackItalic.ttf
+    - family: RobotoBold
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+    - family: RobotoBoldItalic
+      fonts:
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
+    - family: RobotoItalic
+      fonts:
+        - asset: assets/fonts/Roboto-Italic.ttf
+    - family: RobotoLight
+      fonts:
+        - asset: assets/fonts/Roboto-Light.ttf
+    - family: RobotoLightItalic
+      fonts:
+        - asset: assets/fonts/Roboto-LightItalic.ttf
+    - family: RobotoMedium
+      fonts:
+        - asset: assets/fonts/Roboto-Medium.ttf
+    - family: RobotoMediumItalic
+      fonts:
+        - asset: assets/fonts/Roboto-MediumItalic.ttf
+    - family: RobotoRegular
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+    - family: RobotoThin
+      fonts:
+        - asset: assets/fonts/Roboto-Thin.ttf
+    - family: RobotoThinItalic
+      fonts:
+        - asset: assets/fonts/Roboto-ThinItalic.ttf
+  uses-material-design: true
+  assets:
+    - assets/images/
